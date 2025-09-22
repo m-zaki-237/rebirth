@@ -1,0 +1,91 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    background-color: #1e1e1e;
+    font-family: sans-serif;
+    color: #a0a0a0;
+    line-height: 1.2;
+}
+.main{
+    display: grid;
+    max-width: 1000px;
+    grid-template-columns: 350px 1fr;
+    gap: 40px;
+    padding-top: 35px;
+    margin: auto;
+}
+/* Sidebar */
+.sidebar{
+    height: 90vh;
+    background-color: #2a2a2a;
+    border-radius: 5px;
+    border: 1px solid #3a3a3a;
+    padding: 30px;
+}
+.main-content{
+    background-color: #2a2a2a;
+    border-radius: 5px;
+}
+.profile{
+    text-align: center;
+}
+.profile img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border: 1px solid #3a3a3a;
+}
+.profile h2{
+    font-size: 1.2rem;
+    font-weight: 600;
+    margin-top: 10px;
+}
+.profile p{
+    background-color: #1e1e1e;
+    padding: 5px 15px;
+    color: #ffbf00;
+    border: 1px solid #3a3a3a;
+    font-size: 0.8rem;
+    border-radius: 8px;
+    display: inline-block;
+    margin-top: 5px;
+}
+/* Contact */
+.contact{
+    margin-top: 20px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px;
+}
+.label{
+    font-weight: 500;
+    font-size: 0.8rem;
+    color: #a0a0a0;
+}
+.value{
+    color: #e0e0e0;
+    text-decoration: none;
+    font-size: 0.8rem;
+}
+.email,.phone{
+    margin-bottom: 10px;
+}
+/* Social media */
+.social-media{
+    margin-top: 20px;
+    border-top: 2px solid #3a3a3a;
+    padding-top: 20px;
+    text-align: center;
+}
+.social-media img{
+    width: 24px;
+    height: 24px;
+    margin-left: 5px;
+    filter: grayscale(1) invert(0.7);
+    transition: filter 0.3s ease;
+}
+.social-media img:hover{
+        filter: grayscale(0) invert(0);
+}
