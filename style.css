@@ -11,7 +11,7 @@ html,body{
 }
 .main{
     display: grid;
-    max-width: 1000px;
+    max-width: 1200px;
     grid-template-columns: 350px 1fr;
     gap: 40px;
     padding-top: 35px;
@@ -28,6 +28,7 @@ html,body{
 .main-content{
     background-color: #2a2a2a;
     border-radius: 5px;
+    padding: 40px;
 }
 .profile{
     text-align: center;
@@ -42,6 +43,7 @@ html,body{
     font-size: 1.2rem;
     font-weight: 600;
     margin-top: 10px;
+    color: #e0e0e0;
 }
 .profile p{
     background-color: #1e1e1e;
@@ -88,4 +90,59 @@ html,body{
 }
 .social-media img:hover{
         filter: grayscale(0) invert(0);
+}
+/* Navigation */
+.navigation{
+    border-bottom: 2px solid #3a3a3a;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+nav{
+    display: flex;
+    justify-content: flex-end;
+    gap: 30px;
+}
+nav a{
+    text-decoration: none;
+    font-weight: 500;
+    color: #a0a0a0;
+    transition: color 0.3s ease;
+}
+.active, nav a:hover{
+    color: #ffbf00;
+}
+/* About Me */
+.heading{
+    color: #e0e0e0;
+    font-size: 1.6rem;
+    margin-bottom: 15px;
+}
+.line{
+    margin-bottom: 15px;
+    width: 50px;
+    height: 5px;
+    background-color: #ffbf00;
+}
+.content{
+    text-align: justify;
+    margin-bottom: 15px;
+}
+/* Skills */
+.grid{
+    display: grid;
+    grid-template-columns: repeat(auto-fit , minmax(120px,1fr));
+    gap: 40px;
+}
+.item{
+    padding: 20px;
+    border-radius: 10px;
+    border: 2px solid #3a3a3a;
+    text-align: center;
+    background-color: #1e1e1e;
+}
+.item img{
+    margin-bottom: 10px;
+    width: 48px;
+    height: 48px;
+    filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
 }
