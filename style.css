@@ -24,6 +24,8 @@ html,body{
     border-radius: 5px;
     border: 1px solid #3a3a3a;
     padding: 30px;
+    position: sticky;
+    top: 35px;
 }
 .main-content{
     background-color: #2a2a2a;
@@ -135,10 +137,12 @@ nav a{
 }
 .item{
     padding: 20px;
+    margin-top: 20px;
     border-radius: 10px;
     border: 2px solid #3a3a3a;
     text-align: center;
     background-color: #1e1e1e;
+    transition: transform 0.3s ease;
 }
 .item img{
     margin-bottom: 10px;
@@ -146,3 +150,22 @@ nav a{
     height: 48px;
     filter: invert(75%) sepia(50%) saturate(1000%) hue-rotate(350deg) brightness(110%) contrast(101%);
 }
+.item:hover{
+    transform: scale(1.1);
+}
+@media screen and (max-width:1200px){
+    .main{
+        grid-template-columns: 1fr;
+        padding: 20px;
+    }
+    .sidebar{
+        position: static;
+        height: auto;
+    }
+}
+@media screen and (max-width: 480px) {
+    .grid {
+        grid-template-columns: 1fr;
+    }
+}
+
