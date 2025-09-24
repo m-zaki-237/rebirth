@@ -1,96 +1,182 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-    <div class="main">
-        <!-- Sidebar -->
-        <div class="sidebar">
-            <!-- Profile -->
-            <div class="profile">
-                <img src="zaki.png" alt="me">
-                <h2>Muhammad Zakria</h2>
-                <p>Full-Stack Developer</p>
-            </div>
-            <!-- Contact -->
-            <div class="contact">
-                <div class="email">
-                    <h3 class="label">Email</h3>
-                    <a href="mailto:muhammadzakriaawan237@gmail.com" class="value">muhammadzakriaawan237@gmail.com</a>
-                </div>
-                <div class="phone">
-                    <h3 class="label">Phone</h3>
-                    <a href="tel:0326-5529785" class="value">0326-5528785</a>
-                </div>
-                <div class="address">
-                    <h3 class="label">Address</h3>
-                    <a href="Attock, Pakistan" class="value">Attock, Pakistan</a>
-                </div>
-                </div>
-            <!-- Social media -->
-            <div class="social-media">
-                <a href="https://x.com/home"><img src="https://www.svgrepo.com/show/513008/twitter-154.svg" alt=""></a>
-                <a href="https://github.com/m-zaki-237"><img src="https://www.svgrepo.com/show/512317/github-142.svg" alt=""></a>
-                <a href="https://www.linkedin.com/in/muhammad-zakria-7a8402330/"><img src="https://www.svgrepo.com/show/501245/linkedin.svg" alt=""></a>
-            </div>
+  <div class="main">
+    <!-- Sidebar -->
+    <div class="sidebar">
+      <!-- Profile -->
+      <div class="profile">
+        <img src="zaki.png" alt="me" />
+        <h2>Muhammad Zakria</h2>
+        <p>Full-Stack Developer</p>
+      </div>
+
+      <!-- Contact -->
+      <div class="contact">
+        <div class="email">
+          <h3 class="label">Email</h3>
+          <a href="mailto:muhammadzakriaawan237@gmail.com" class="value">
+            muhammadzakriaawan237@gmail.com
+          </a>
         </div>
-         <!-- main content -->
-        <div class="main-content">
-            <!-- Navigation -->
-             <div class="navigation">
-                <nav>
-                    <a href="#about" class="active">About</a>
-                    <a href="#skills">Skills</a>
-                    <a href="#education">Education</a>
-                    <a href="#profile">Profile</a>
-                </nav>
-             </div>
-            <!-- About -->
-             <div id="about">
-                <h2 class="heading">About Me</h2>
-                <div class="line"></div>
-                <p class="content">I am a passionate MERN stack developer who enjoys creating modern and user-friendly web applications With a solid base in HTML CSS and JavaScript I focus on writing clean code and exploring new technologies to deliver impactful digital experiences I am always eager to learn and take on new challenges to grow as a developer.</p>
-             </div>
-            <!-- Skills -->
-             <div id="skills">
-                <h2 class="heading">My Skills</h2>
-                <div class="line"></div>
-                <div class="grid">
-                    <div class="item">
-                    <img src="https://www.simpleicons.org/icons/html5.svg" alt="">
-                    <p>HTML5</p>
-                    </div>
-                    <div class="item">
-                    <img src="https://www.simpleicons.org/icons/css.svg" alt="">
-                    <p>CSS3</p>
-                    </div>
-                    <div class="item">
-                    <img src="https://www.simpleicons.org/icons/javascript.svg" alt="">
-                    <p>JavaScript</p>
-                    </div>
-                    <div class="item">
-                    <img src="https://www.simpleicons.org/icons/react.svg" alt="">
-                    <p>React</p>
-                    </div>
-                    <div class="item">
-                    <img src="https://www.simpleicons.org/icons/git.svg" alt="">
-                    <p>Git & Github</p>
-                    </div>
-                    <div class="item">
-                    <img src="https://www.simpleicons.org/icons/typescript.svg" alt="">
-                    <p>TypeScript</p>
-                    </div>
-                </div>
-             </div>
-            <!-- Education -->
-             <div id="education"></div>
-            <!-- Profile -->
-             <div id="profile"></div>
+        <div class="phone">
+          <h3 class="label">Phone</h3>
+          <a href="tel:0326-5529785" class="value">0326-5528785</a>
         </div>
+        <div class="address">
+          <h3 class="label">Address</h3>
+          <a href="Attock, Pakistan" class="value">Attock, Pakistan</a>
+        </div>
+      </div>
+
+      <!-- Social media -->
+      <div class="social-media">
+        <a href="https://x.com/home">
+          <img src="https://www.svgrepo.com/show/513008/twitter-154.svg" alt="twitter"/>
+        </a>
+        <a href="https://github.com/m-zaki-237">
+          <img src="https://www.svgrepo.com/show/512317/github-142.svg" alt="github"/>
+        </a>
+        <a href="https://www.linkedin.com/in/muhammad-zakria-7a8402330/">
+          <img src="https://www.svgrepo.com/show/501245/linkedin.svg" alt="linkedin"/>
+        </a>
+      </div>
     </div>
+
+    <!-- Main content -->
+    <div class="main-content">
+      <!-- Navigation -->
+      <div id="navigation">
+        <nav>
+          <a href="#about" class="active">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#education">Education</a>
+          <a href="#portfolio">Profile</a>
+        </nav>
+      </div>
+
+      <!-- About -->
+      <div id="about">
+        <h2 class="heading">About Me</h2>
+        <div class="line"></div>
+        <p class="content">
+          I am a passionate MERN stack developer who enjoys creating modern and user-friendly
+          web applications With a solid base in HTML CSS and JavaScript I focus on writing clean
+          code and exploring new technologies to deliver impactful digital experiences I am always
+          eager to learn and take on new challenges to grow as a developer
+        </p>
+      </div>
+
+      <!-- Skills -->
+      <div id="skills">
+        <h2 class="heading">My Skills</h2>
+        <div class="line"></div>
+        <div class="grid">
+          <div class="item">
+            <img src="https://www.simpleicons.org/icons/html5.svg" alt="HTML5"/>
+            <p>HTML5</p>
+          </div>
+          <div class="item">
+            <img src="https://www.simpleicons.org/icons/css.svg" alt="CSS3"/>
+            <p>CSS3</p>
+          </div>
+          <div class="item">
+            <img src="https://www.simpleicons.org/icons/javascript.svg" alt="JavaScript"/>
+            <p>JavaScript</p>
+          </div>
+          <div class="item">
+            <img src="https://www.simpleicons.org/icons/react.svg" alt="React"/>
+            <p>React</p>
+          </div>
+          <div class="item">
+            <img src="https://www.simpleicons.org/icons/git.svg" alt="Git"/>
+            <p>Git & Github</p>
+          </div>
+          <div class="item">
+            <img src="https://www.simpleicons.org/icons/typescript.svg" alt="TypeScript"/>
+            <p>TypeScript</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Education -->
+      <div id="education">
+        <h2 class="heading">Education</h2>
+        <div class="line"></div>
+        <div class="edu">
+          <div class="edu1">
+            <div class="year">2022-2024</div>
+            <h3 class="degree">Intermediate Computer Science</h3>
+            <p class="college">Army Public College PMA Kakul Abbottabad</p>
+            <p class="learning">
+              Learned the fundamentals of computer science mathematics and basic programming
+              which build the foundation for higher studies
+            </p>
+            <div class="circle"></div>
+          </div>
+          <div class="edu2">
+            <div class="year">2025-2029</div>
+            <h3 class="degree">Bachelors of Computer Science</h3>
+            <p class="college">Comsats University Islamabad, Attock Campus</p>
+            <p class="learning">
+              Learning advanced computer science concepts software development system design
+              data management and problem solving for real world applications
+            </p>
+            <div class="circle"></div>
+          </div>
+          <div class="liner"></div>
+        </div>
+      </div>
+
+      <!-- Portfolio -->
+      <div id="portfolio">
+        <h2 class="heading">Portfolio</h2>
+        <div class="line"></div>
+        <div class="projects-container">
+          <div class="project">
+            <img src="https://res.cloudinary.com/dk02a9iu6/image/upload/v1708944461/website-images/bacexnbe7gbmhjkkwog3.png" alt="E-Commerce"/>
+            <div class="card">
+              <h2 class="heading">E-Commerce Website</h2>
+              <p>A fully responsive online store built with modern design principles</p>
+              <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="https://pms.net.pk/wp-content/uploads/2023/01/Guide-to-Hospital-Management-System.png" alt="Hospital Management"/>
+            <div class="card">
+              <h2 class="heading">Hospital Management</h2>
+              <p>A system to manage doctors, patients, and appointments efficiently</p>
+              <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="https://cdn.dribbble.com/userupload/23898941/file/original-13e0a9da7d7ac23c18bd072155127beb.png?resize=400x0" alt="Job Portal"/>
+            <div class="card">
+              <h2 class="heading">Job Portal</h2>
+              <p>A modern job portal connecting recruiters with job seekers</p>
+              <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+            </div>
+          </div>
+
+          <div class="project">
+            <img src="https://cdn.dribbble.com/userupload/9379672/file/original-830a1cd216422543ecea682d94dbb610.jpg?format=webp&resize=400x300&vertical=centerg" alt="Social Media"/>
+            <div class="card">
+              <h2 class="heading">Social Media App</h2>
+              <p>A full-stack social media app with posts, likes, and comments</p>
+              <span>MongoDB</span><span>Express.js</span><span>React</span><span>Node.js</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 </html>
